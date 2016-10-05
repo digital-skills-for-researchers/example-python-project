@@ -41,9 +41,9 @@ Ensure you have run the program using the sample data first, so you can be sure 
 1. Create a new folder called `my_data` in the `sample-python-project` folder.
 2. Copy your CSV files to the `my_data` folder.
 3. Open the file `nldl.py` in a code editor.
-4. Modify the `INPUT_FILE` setting at the top of the file to use one of your data files:
+4. Modify the `source_file` setting at the top of the file to use one of your data files:
   ```
-  INPUT_FILE = 'my_data/my_data_file.CSV'
+  source_file = 'my_data/my_data_file.CSV'
   ```
 5. Save your changes.
 6. Open your command line to the `sample-python-project` folder.
